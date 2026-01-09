@@ -4,7 +4,7 @@
 
   const config = {
     apiEndpoint: isLocalhost
-      ? "http://localhost:5001/api/events/track"
+      ? "http://localhost:5000/api/events/track"
       : "/api/events/track",
     sessionIdKey: "analytics_session_id",
     sessionTimeout: 30 * 60 * 1000 // 30 minutes
