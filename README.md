@@ -5,8 +5,11 @@ Node.js backend service for collecting and serving user analytics data.
 ## Tech Stack
 
 - Node.js
-- Express 4
-- MongoDB (Mongoose 8)
+- Express
+- Mongoose
+- MongoDB
+- cors
+- dotenv
 
 ## Setup
 
@@ -54,7 +57,7 @@ npm run dev
 
 ## Tracking Script
 
-The `tracking/tracker.js` file can be embedded on any website:
+Add the following script to your website's `index.html` to start tracking:
 
 ```html
 <script src="https://your-domain.com/tracker.js"></script>
